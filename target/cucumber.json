@@ -1,0 +1,313 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1338000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to Jira Login Page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name - \"webinar5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webinar5",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter password - \"webinar5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webinar5",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.atTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-16T20:20:58.540Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1495000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.beforeCucumberScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Create issues",
+        "description": "",
+        "id": "create-issues;create-issues",
+        "after": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.afterCucumberScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Create button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.clickButtonCreate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1253000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Create Issues for is opened",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.waitToOpenCreate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7766000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I fill all mandatory fields",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.fillMandatoryFields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "An issues is create",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.bushButtonCreate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 557000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The issues number is shown",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.showsNumberIssues()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create Issues",
+    "description": "",
+    "id": "create-issues",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/create_issues.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T20:21:13.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.beforeCucumberScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login to Jira",
+        "description": "",
+        "id": "login-to-jira;login-to-jira",
+        "after": [
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.afterCucumberScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2203000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Jira Login Page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user name - \"webinar5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webinar5",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password - \"webinar5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webinar5",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1894000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.atTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login To Jira",
+    "description": "",
+    "id": "login-to-jira",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
