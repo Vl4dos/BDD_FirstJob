@@ -70,6 +70,7 @@ public class StepDefinitions {
   @When("^I am on the Home Page$")
   public void atTheHomePage() {
     assert new HomePage().onPage();
+
   }
 
   @When("^I am on an error page$")

@@ -2,7 +2,12 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.WebDriverFactory;
+
+import java.time.Duration;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class CreateIssues {
 
@@ -18,6 +23,11 @@ public class CreateIssues {
   private By createIssue = By.id("create-issue-submit");
 
   public void  clickButtonCreate (){
+    try {
+      Thread.sleep(Long.parseLong("5000"));
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     WebDriverFactory.getDriver().findElement(createLink).click();
   }
   public void mandatoryFields (String textProjectField,String textIssueType,String textSummery,String nameReporter,String textDescription){

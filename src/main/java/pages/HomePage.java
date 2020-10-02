@@ -10,7 +10,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 
 public class HomePage {
   public boolean onPage(){
-    WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(5).getSeconds());
+    WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(10).getSeconds());
     return wait.until(presenceOfElementLocated(By.id("header-details-user-fullname"))).isDisplayed();
   }
   public boolean messageError (){
@@ -19,7 +19,7 @@ public class HomePage {
   }
   public boolean openCreateIssues (){
     WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(5).getSeconds());
-    return wait.until(presenceOfElementLocated(By.id("project-single-select"))).isDisplayed();
+    return wait.until(presenceOfElementLocated(By.id("summary"))).isDisplayed();
   }
   public boolean messageAddIssues(){
     WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(5).getSeconds());

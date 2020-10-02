@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BDD_HomeTask.iml" filepath="$PROJECT_DIR$/BDD_HomeTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BDD_HomeTaskJob.iml" filepath="$PROJECT_DIR$/BDD_HomeTaskJob.iml" />
     </modules>
   </component>
 </project>

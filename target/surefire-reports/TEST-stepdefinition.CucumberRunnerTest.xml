@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="stepdefinition.CucumberRunnerTest" time="21.269" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="stepdefinition.CucumberRunnerTest" time="33.72" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -66,7 +66,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Create issues" classname="Create Issues" time="15.126">
+  <testcase name="Create issues" classname="Create Issues" time="25.999">
     <system-out><![CDATA[
 @Regression
 Scenario: Create issues               &amp#27;[90m# src/test/resources/features/create_issues.feature:11&amp#27;[0m
@@ -81,22 +81,22 @@ Scenario: Create issues               &amp#27;[90m# src/test/resources/features/
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn issues is create&amp#27;[0m            &amp#27;[90m# stepdefinition.StepDefinitions.bushButtonCreate()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe issues number is shown&amp#27;[0m      &amp#27;[90m# stepdefinition.StepDefinitions.showsNumberIssues()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[сен 16, 2020 11:20:58 PM io.cucumber.junit.Cucumber <init>
+    <system-err><![CDATA[сен 17, 2020 12:41:27 PM io.cucumber.junit.Cucumber <init>
 WARNING: By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29417
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4278
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-сен 16, 2020 11:20:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+сен 17, 2020 12:41:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login to Jira" classname="Login To Jira" time="5.679">
+  <testcase name="Login to Jira" classname="Login To Jira" time="6.626">
     <system-out><![CDATA[
 @Regression
 Scenario: Login to Jira               &amp#27;[90m# src/test/resources/features/login.feature:6&amp#27;[0m
@@ -106,11 +106,11 @@ Scenario: Login to Jira               &amp#27;[90m# src/test/resources/features/
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the login button&amp#27;[0m     &amp#27;[90m# stepdefinition.StepDefinitions.clickLoginButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI am on the Home Page&amp#27;[0m          &amp#27;[90m# stepdefinition.StepDefinitions.atTheHomePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29171
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23307
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-сен 16, 2020 11:21:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+сен 17, 2020 12:41:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
